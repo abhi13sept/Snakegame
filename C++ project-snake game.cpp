@@ -1,7 +1,6 @@
 #include <iostream>
 #include <conio.h>
 #include <windows.h>
-#include <fstream>
 using namespace std;
 bool gameOver;
 const int width = 20;
