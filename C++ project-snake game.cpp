@@ -7,7 +7,7 @@ const int width = 20; //width of the game
 const int height = 20; //height of the game
 int x, y, fx, fy, score;
 int tx[100], ty[100];
-int n;
+int n;//Length of the tail
 enum eDirecton { STOP = 0, LEFT, RIGHT, UP, DOWN}; //basic directions
 eDirecton dir; //Store the Directions after key hit
 void Setup()
